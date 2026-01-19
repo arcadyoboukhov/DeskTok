@@ -1,0 +1,54 @@
+# User-specific data (auto-generated when app runs)
+data/behavior.json
+data/recent.json
+categorize_report.csv
+
+# Video thumbnails (regenerated automatically)
+thumbs/**/*
+!thumbs/.gitkeep
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+*.min.js
+*.min.css
